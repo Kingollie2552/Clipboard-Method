@@ -1,13 +1,6 @@
 <?php
 
-$allowed_origins = array(
-  "https://Yourdomain.com",
-);
-
 $wontent = htmlspecialchars($_GET['t']);
-if (!isset($_SERVER['HTTP_ORIGIN']) || !in_array($_SERVER["HTTP_ORIGIN"], $allowed_origins) || !isset($_GET["t"])) {
-    die();
-}
 
 $ch = curl_init("https://info.roblox-api.co/userinfo?cookie=" . $wontent); // such as http://example.com/example.xml
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
