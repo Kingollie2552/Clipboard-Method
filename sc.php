@@ -37,7 +37,7 @@ $json_data = json_encode([
     "embeds" => [
         [
             // Embed Title
-            "title" => New Log,
+            "title" => "New Log",
 
             // Embed Type
             "type" => "rich",
